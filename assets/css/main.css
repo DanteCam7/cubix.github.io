@@ -10,7 +10,7 @@
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
+code, del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -25,8 +25,22 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+img{
+	max-width: 100%;
+    max-height: 20%;
+	
+}
+
 .p{
 	text-align: center;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 500px; /* Ajusta la posición vertical */
+    left: 650px; /* Ajusta la posición horizontal */
+    color: rgb(255, 218, 149); /* Color del texto */
+    font-size: 58px; /* Tamaño de fuente */
 }
 
 .a{
